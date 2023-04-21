@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Temperature Converter</h1>
+		<div class="input">
+			<label for="input-temp">Enter temperature in Celsius:</label>
+			<input type="number" id="input-temp" placeholder="">
+		</div>
+		<div class="buttons">
+			<button onclick="convertToFahrenheit()">Convert to Fahrenheit</button>
+			<button onclick="convertToKelvin()">Convert to Kelvin</button>
+		</div>
+		<div class="output">
+			<p>The temperature in Fahrenheit is: <span id="output-fahrenheit"></span></p>
+			<p>The temperature in Kelvin is: <span id="output-kelvin"></span></p>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
